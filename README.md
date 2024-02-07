@@ -42,6 +42,6 @@ Dimensions of each variable are given in the brackets, [~].
 - Particle_velocity_w: measured particle settling velocity at turbulent flow [m/s]
 - Particle_std: standard deviation of measured particle settling velocity at turbulent flow [m/s]
 - Slip_velocity: slip velocity between Particle_velocity_w and fluid velocity along the trajectory [m/s]
-- Slip_velocity_std: standard deviation of slip velocity
-- St: Stokes number (tau_p/Kolmogorov_time)
-- Sv: Settling parameter (tua_p*g/Urms)
+- Slip_velocity_std: standard deviation of slip velocity [m/s]
+- St: Stokes number (tau_p/Kolmogorov_time) [-]
+- Sv: Settling parameter (tua_p*g/Urms) [-]
