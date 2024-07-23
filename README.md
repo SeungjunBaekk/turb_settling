@@ -37,6 +37,8 @@ Dimensions of each variable are given in the brackets, [~].
 - w_rms: rms vertical fluid velocity [m/s]
 - Urms: sqrt( [2u_rms^2 + w_rms^2]/3 ) [m/s]
 - tau_p: particle response time [s]
+- Lambda: Taylor microscale [m]
+- Re_lam: turbulent Reynolds number (Lambda*Urms/nu) [-]
 - Stag_particle_velocity_w: particle settling velocity at stagnant fluid [m/s]
 - Stag_particle_std: standard deviation of particle settling velocity at stagnant fluid [m/s]
 - Particle_velocity_w: measured particle settling velocity at turbulent flow [m/s]
