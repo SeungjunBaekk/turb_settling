@@ -16,8 +16,8 @@ Rows: particle size
 
 Columns: Flow cases
 
-1. LU
-2. LD
+1. GU
+2. GD
 3. T1
 4. T2
 5. T3
@@ -35,7 +35,7 @@ Dimensions of each variable are given in the brackets, [~].
 - Kolmogorov_time: (Fluid_kinematic_viscosity/TKE_dissipation_rate)^0.5 [s]
 - u_rms: rms horizontal fluid velocity [m/s]
 - w_rms: rms vertical fluid velocity [m/s]
-- Urms: sqrt( [u_rms^2 + 2w_rms^2]/3 ) [m/s]
+- Urms: sqrt( [2u_rms^2 + w_rms^2]/3 ) [m/s]
 - tau_p: particle response time [s]
 - Stag_particle_velocity_w: particle settling velocity at stagnant fluid [m/s]
 - Stag_particle_std: standard deviation of particle settling velocity at stagnant fluid [m/s]
